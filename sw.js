@@ -1,6 +1,6 @@
 // 운동 기록장 서비스워커: 앱 파일을 저장해 두고 인터넷 없이도 열리게 한다.
 // 앱 파일을 고쳐 다시 올릴 때는 VERSION 숫자를 올리면 휴대폰에서 새 버전으로 바뀐다.
-const VERSION = 'v1';
+const VERSION = 'v2';
 const CACHE = 'workout-log-' + VERSION;
 const FILES = [
   './',
